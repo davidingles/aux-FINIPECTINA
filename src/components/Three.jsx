@@ -16,8 +16,12 @@ const Models = [
   // { title: 'antorcha1', url: './antorcha1.glb', miEscala: .5, miPosicion: -0.3 },
   // { title: '1g0004', url: './1g0004.glb', miEscala: .6, miPosicion: .0 },
   {
-    title: '1000LIVES', url: './1000LIVES.glb', miEscala: 2
-    , miPosicion: -.20
+    title: 'FINIPECTINA', url: './FINIPECTINA.glb', miEscala: .2
+    , miPosicion: -.40
+  },
+  {
+    title: 'FINIPECTINA1', url: './FINIPECTINA1.glb', miEscala: .2
+    , miPosicion: -.40
   },
   // { title: 'CESTA1', url: './CESTA1.glb', miEscala: .9, miPosicion: -.3 },
   // { title: 'FRUTOS', url: './FRUTOS.glb', miEscala: 1.3, miPosicion: .2 },
@@ -76,7 +80,7 @@ export default function EstucheConAsas({ title, escala, posicion }) {
         <pointLight position={[100, 100, 0]} intensity={33333} decay={2} />
         <pointLight position={[-100, 100, 0]} intensity={33333} decay={2} />
         <pointLight position={[-100, 100, 100]} intensity={11111} decay={2} />
-        <pointLight position={[100, -100, -100]} intensity={11111} decay={2} />
+        <pointLight position={[100, -100, -100]} intensity={77111} decay={2} />
         <pointLight position={[100, -100, 100]} intensity={11111} decay={2} />
         {/* <ambientLight intensity={4} /> */}
         <Suspense fallback={<Fallback />}>
